@@ -1,0 +1,108 @@
+@import 'utils/vars';
+@import 'utils/reset';
+html {
+    height: 100%;
+    @media screen and (max-width: $desktopWidth) {
+    }
+    @media screen and (max-width: $tableWidth) {
+    }
+    @media screen and (max-width: $phoneWidth) {
+    }
+}
+
+body {
+    font-family: $mainFont;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: $mainFontSize;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    margin-top: 60px;
+}
+
+section,
+.section {
+    @media screen and (max-width: $desktopWidth) {
+    }
+    @media screen and (max-width: $tableWidth) {
+    }
+    @media screen and (max-width: $phoneWidth) {
+    }
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.wrapper-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+    margin-top: 40px; // if header is fixed do 40px+headerHeight
+}
+
+.container {
+    position: relative;
+    flex: 0 0 auto;
+    margin: 0 auto;
+    width: 100%;
+    max-width: $lgDesktopWidth;
+    @media screen and (max-width: $lgDesktopWidth) {
+    }
+    @media screen and (max-width: $smDesktopWidth) {
+        max-width: $tableWidth;
+    }
+    @media screen and (max-width: $tableWidth) {
+        max-width: $smTableWidth;
+    }
+    @media screen and (max-width: $smTableWidth) {
+        max-width: $phoneWidth;
+    }
+    @media screen and (max-width: $phoneWidth) {
+        max-width: $smPhoneWidth;
+    }
+}
+
+.view {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    margin-left: 2%;
+    float: left;
+}
