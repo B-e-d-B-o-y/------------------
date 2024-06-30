@@ -27,7 +27,7 @@ body{
     padding: 2%;
     background: white;
 }
-.title{
+.titlelogin{
     text-align: center;
     font-size: 200%;
     margin-top: 3%;
