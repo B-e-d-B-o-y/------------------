@@ -1,7 +1,6 @@
 <template>
 <Header></Header>
-<Main></Main>
-<Footers></Footers>
+<Card></Card>
 </template>
 
 <script setup>
@@ -12,6 +11,7 @@ import Confirmation from './components/confirmation.vue'
 import Header from './components/header.vue'
 import Main from './components/main.vue'
 import Footers from './components/footer.vue'
+import Card from './components/card.vue'
 </script>
 
 <style lang="scss">
