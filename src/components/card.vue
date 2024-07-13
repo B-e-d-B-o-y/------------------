@@ -260,27 +260,30 @@
 
     <div class="bordercard">
 
-    <div class="labelcardwrapper">  
-        <label class="labelcard">Фотография внешнего оформления(в перспективе)</label>
+        <div class="labelcardwrapper">  
+            <label class="labelcard">Фотография внешнего оформления(в перспективе)</label>
 
-        <input class="inputphoto" type="file">
-    </div>        
+            <input class="inputphoto" type="file">
+        </div>        
 
-    <div class="labelcardwrapper">  
-        <label class="labelcard">Фотография марки центра вблизи</label>
+        <div class="labelcardwrapper">  
+            <label class="labelcard">Фотография марки центра вблизи</label>
 
-        <input class="inputphoto" type="file">
-    </div>        
+            <input class="inputphoto" type="file">
+        </div>        
     </div>
 
-    <div class="inputPairBig">
-        <label>Примечания</label>
-        <input class="inputcardBig" id="notes">
-    </div>
+    <div class="bordercard">
 
-    <div class="inputPairBig">
-        <label>Составил(а)</label>
-        <input class="inputcardBig" id="madeup">
+        <div class="inputPairBig">
+            <label>Примечания</label>
+            <input class="inputcardBig" id="notes">
+        </div>
+
+        <div class="inputPairBig">
+            <label>Составил(а)</label>
+            <input class="inputcardBig" id="madeup">
+        </div>
     </div>
 
     <div style="text-align: center;"><button id="create">Создать</button></div>
