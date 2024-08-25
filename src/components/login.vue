@@ -1,6 +1,12 @@
 <template>
     <div class="login">
     <img class="fingerprint" src="/src/assets/image/fingerprint.png"/>
+    <h1 class="titlelogin">Войти в аккаунт</h1>
+    <input id="login" class="input" placeholder="Логин">
+    <input id="password" type="password" class="input" placeholder="Пароль">
+    <button id="buttonpassword" class="button">Войти</button>
+    <div class="rectangle"><span>ИЛИ</span></div>
+    <button @click="registrarion" id="buttonregistration" class="button">Зарегистрироваться</button>
     <slot></slot>
     </div>
 </template>

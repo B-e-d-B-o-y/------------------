@@ -1,35 +1,52 @@
 <template>
     <header>
-                <div class="form_radio_btn_header">
-                    <input id="radioheader_main" type="radio" name="radioheader" value="1" checked>
-                    <label for="radioheader_main">Главная</label>
-                </div>
+        <RouterLink to="/">
+            <div class="form_radio_btn_header">
+                <input id="radioheader_main" type="radio" name="radioheader">
+                <label for="radioheader_main">Главная</label>
+            </div>
+        </RouterLink>
+
+        <RouterLink to="/card">
+            <div class="form_radio_btn_header">
+                <input id="radioheader_card" type="radio" name="radioheader">
+                <label for="radioheader_card">Карточка</label>
+            </div>
+        </RouterLink>
                         
-                <div class="form_radio_btn_header">
-                    <input id="radioheader_card" type="radio" name="radioheader" value="2">
-                    <label for="radioheader_card">Карточка</label>
-                </div>
-                        
-                <div class="form_radio_btn_header">
+        <RouterLink to="/help">
+            <div class="form_radio_btn_header">
                     <input id="radioheader_remember" type="radio" name="radioheader" value="3">
                     <label for="radioheader_remember">Помощь</label>
                 </div>
+        </RouterLink>
                         
-                <div class="form_radio_btn_header">
-                    <input id="radioheader_map" type="radio" name="radioheader" value="4">
-                    <label for="radioheader_map">Карта</label>
-                </div>
-                <div class="form_radio_btn_header">
-                    <input id="radioheader_check" type="radio" name="radioheader" value="5">
-                    <label for="radioheader_check">Проверка</label>
-                </div>
+        <RouterLink to="/map">
+            <div class="form_radio_btn_header">
+                <input id="radioheader_map" type="radio" name="radioheader" value="4">
+                <label for="radioheader_map">Карта</label>
+            </div>
+        </RouterLink>
+
+        <RouterLink to="/check">
+            <div class="form_radio_btn_header">
+                <input id="radioheader_check" type="radio" name="radioheader" value="5">
+                <label for="radioheader_check">Проверка</label>
+            </div>
+        </RouterLink>
                         
-                <div class="form_radio_btn_header">
-                    <input id="radioheader_profile" type="radio" name="radioheader" value="6">
-                    <label for="radioheader_profile">Профиль</label>
-                </div>
+        <RouterLink to="/login">
+            <div class="form_radio_btn_header">
+                <input id="radioheader_profile" type="radio" name="radioheader" value="6">
+                <label for="radioheader_profile">Профиль</label>
+            </div>
+        </RouterLink>
     </header>
 </template>
+
+<script setup>
+
+</script>
 
 <style lang="scss">
 @import '/src/assets/scss/main.scss';
